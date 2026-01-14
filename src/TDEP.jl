@@ -34,9 +34,5 @@ end
 include("io.jl")
 include("system.jl")
 include("stubs.jl")
-include("workflows/sTDEP.jl")
-
-# Include the simplified TDEP wrappers
-include("libolle/crystal_structure.jl")
 
 end

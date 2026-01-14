@@ -1,7 +1,9 @@
 # TDEP.jl
-Temperature Dependent Effective Potential Bindings in Julia
-> :warning: **This project is still under development** More to come soon!
+Temperature Dependent Effective Potential Bindings in Julia. 
 
+See my other lattice dynamics package [here](https://github.com/ejmeitz/LatticeDynamicsToolkit.jl) for a further functionality.
+
+## Quick Start
 ----------------------------------------------
 To install this package (and TDEP!) run in the Julia REPL:
 ```julia
@@ -24,11 +26,12 @@ execute(efc, rundir, ncores)
 ```
 It is possible to use a local MPI and/or a locally built TDEP. I will write docs on how to do that soon!
 
-TO-DO:
---------
-- Re-implment checks for required input files to get useful errors without opening logfile
-- Finish wrapping all executables
-- Support local builds of TDEP/MPI
-- Integrate with [AtomsBase.jl](https://github.com/JuliaMolSim/AtomsBase.jl) ecosystem
-- Possible integrations with [Brillouin.jl](https://github.com/thchr/Brillouin.jl) or [Spglib.jl](https://github.com/singularitti/Spglib.jl) or [SimpleCrystals.jl](https://github.com/ejmeitz/SimpleCrystals.jl)
-- Do something cool with libolle (implement sTDEP loop etc.)
+----------------------------------------------
+
+## Extensions:
+
+There is a package extension for [Molly.jl](https://github.com/JuliaMolSim/Molly.jl) to run molecular dynamcis simulations. Examples can be found in the `scripts` directory Two algorithms are implemented to date:
+- Dataset generation for fitting force constants
+- Thermodynamic integration with a harmonic crystal reference
+
+Both of these should work, but I have not extensively tested them. My focus is on the [LatticeDynamics.jl](https://github.com/ejmeitz/LatticeDynamicsToolkit.jl) package. This package implements much of lattice dynamics from scratch and uses TDEP routines when convenient. Report any issues please.

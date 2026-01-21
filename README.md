@@ -1,4 +1,4 @@
-# TDEP.jl
+# TDEPWrapper.jl
 Temperature Dependent Effective Potential Bindings in Julia. 
 
 See my other lattice dynamics package [here](https://github.com/ejmeitz/LatticeDynamicsToolkit.jl) for further functionality.
@@ -8,7 +8,7 @@ See my other lattice dynamics package [here](https://github.com/ejmeitz/LatticeD
 To install this package (and TDEP!) run in the Julia REPL:
 ```julia
 using Pkg
-Pkg.add(url = "https://github.com/ejmeitz/TDEP.jl.git")
+Pkg.add("TDEPWrapper")
 ```
 
 ```julia

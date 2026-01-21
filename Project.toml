@@ -1,4 +1,4 @@
-name = "TDEP"
+name = "TDEPWrapper"
 uuid = "03dde086-6832-4aef-a599-2e26e563d57c"
 authors = ["ejmeitz <emeitz@andrew.cmu.edu>"]
 version = "0.0.1"

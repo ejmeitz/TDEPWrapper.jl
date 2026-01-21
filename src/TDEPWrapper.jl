@@ -1,4 +1,4 @@
-module TDEP
+module TDEPWrapper
 
 using TDEP_jll
 using MPI

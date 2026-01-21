@@ -1,5 +1,5 @@
 # TDEPWrapper.jl
-Temperature Dependent Effective Potential Bindings in Julia. 
+[Temperature Dependent Effective Potential](https://tdep-developers.github.io/tdep/) Bindings in Julia. 
 
 See my other lattice dynamics package [here](https://github.com/ejmeitz/LatticeDynamicsToolkit.jl) for further functionality.
 
